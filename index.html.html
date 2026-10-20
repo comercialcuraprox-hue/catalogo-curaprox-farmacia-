@@ -1,0 +1,687 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CURAPROX | Catálogo de Pedidos Farmácia 2026</title><style>
+:root{font-family:Inter,Arial,sans-serif;color:#eaf2ff;background:#08182f;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,textarea{font:inherit}button{cursor:pointer}header{background:linear-gradient(115deg,#102e56,#07172b);padding:32px max(22px,calc((100vw - 1260px)/2));border-bottom:1px solid #254465}.top{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-size:29px;letter-spacing:3px;font-weight:900}.brand small{font-size:10px;letter-spacing:1px;display:block;color:#9fc1e9;font-weight:500;margin-top:5px}.pill{border:1px solid #5e88b8;border-radius:30px;padding:9px 15px;color:#c2d8ef;font-size:12px}h1{font-size:clamp(28px,4vw,45px);line-height:1.1;margin:34px 0 10px}header p{color:#b2c7de;margin:0;max-width:640px;line-height:1.6}.wrap{max-width:1300px;padding:25px 22px;margin:auto}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:20px}.search{flex:1;min-width:210px;background:#102642;color:white;border:1px solid #355174;border-radius:12px;padding:15px}.select{background:#102642;color:white;border:1px solid #355174;border-radius:12px;padding:15px}.count{color:#adc3df;font-size:13px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 335px;gap:22px;align-items:start}.products{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:16px}.product{background:#10233f;border:1px solid #2b4668;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}.photo{height:160px;background:radial-gradient(circle at 40% 30%,#29567f,#10233f 68%);display:flex;align-items:center;justify-content:center;position:relative}.photo img{width:100%;height:100%;object-fit:contain;padding:9px}.placeholder{text-align:center;color:#b4cce7;font-size:12px;line-height:1.7}.placeholder strong{font-size:35px;display:block;color:#75d5ef}.upload{position:absolute;right:8px;bottom:8px;background:#08203cdd;color:white;border:1px solid #7597bd;padding:6px 9px;border-radius:7px;font-size:10px}.product-body{padding:15px;display:flex;flex-direction:column;flex:1}.category{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#6cd5e8;font-weight:700}.name{font-size:14px;font-weight:700;line-height:1.4;margin:9px 0;min-height:57px}.codes{color:#9eb8d6;font-size:11px;line-height:1.7}.price{font-size:24px;font-weight:800;margin-top:12px}.small{font-size:11px;color:#abc1da}.buy{margin-top:auto;padding-top:14px;display:flex;align-items:center;justify-content:space-between;gap:9px}.qty{width:82px;background:#091b32;color:white;border:1px solid #3e5a79;border-radius:9px;padding:10px}.subtotal{font-size:13px;font-weight:700}.cart{background:#f7faff;color:#172d4a;border-radius:17px;padding:19px;position:sticky;top:15px;box-shadow:0 12px 40px #0004}.cart h2{font-size:20px;margin:0 0 6px}.cart .muted{color:#58718c;font-size:12px}.cart-items{max-height:240px;overflow:auto;margin:15px 0;border-top:1px solid #dce6f0}.cart-line{padding:10px 0;border-bottom:1px solid #e2eaf3;font-size:12px;display:flex;justify-content:space-between;gap:10px}.total{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-top:1px solid #cbd8e6;font-weight:800;font-size:21px}.cart label{font-size:12px;color:#415b78;display:block;margin:11px 0 5px}.cart input,.cart textarea{width:100%;border:1px solid #c5d5e7;border-radius:8px;padding:10px;color:#172d4a;background:white}.cart textarea{resize:vertical;min-height:58px}.primary{width:100%;background:#0c75b7;color:white;border:0;border-radius:10px;padding:13px;margin-top:11px;font-weight:800}.secondary{width:100%;background:white;color:#175281;border:1px solid #adc9df;border-radius:10px;padding:11px;margin-top:9px;font-weight:700}.note{color:#647c95;font-size:11px;line-height:1.5;margin-top:12px}.warn{color:#a54c00;font-size:12px;font-weight:700}.footer{margin:35px 0;color:#8ba8c9;font-size:12px;text-align:center}.floating{display:none} @media(max-width:930px){.layout{grid-template-columns:1fr}.cart{position:static}.floating{display:block;position:fixed;bottom:15px;right:15px;background:#0c75b7;color:white;border:0;border-radius:30px;padding:13px 18px;box-shadow:0 4px 20px #0008;z-index:5}}@media(max-width:500px){.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.product-body{padding:10px}.name{font-size:12px;min-height:80px}.photo{height:120px}.price{font-size:19px}.codes{font-size:9px}.buy{flex-direction:column;align-items:stretch}.qty{width:100%}.brand{font-size:23px}}
+</style></head><body><header><div class="top"><div class="brand">CURAPROX<small>CURADEN SWISS DO BRASIL</small></div><div class="pill">TABELA FARMÁCIA · 01/04/2026</div></div><h1>Catálogo digital de pedidos</h1><p>Escolha os produtos, informe as quantidades e monte seu pedido. Valores extraídos da tabela Farmácia 2026.</p></header><main class="wrap"><div class="toolbar"><input id="search" class="search" placeholder="Buscar produto, código, EAN ou DUN…"><select id="filter" class="select"><option value="all">Todas as categorias</option><option value="Escovas">Escovas</option><option value="Interdentais">Interdentais</option><option value="Creme dental">Cremes dentais</option><option value="Kits e Travel">Kits e Travel</option><option value="Outros">Outros</option></select><span id="count" class="count"></span></div><div class="layout"><section id="products" class="products"></section><aside id="cart" class="cart"><h2>Seu pedido 🛒</h2><div class="muted">Quantidades e valores atualizados automaticamente</div><div id="cart-items" class="cart-items"></div><div class="total"><span>Total</span><span id="total">R$ 0,00</span></div><div id="minimum" class="warn"></div><label for="company">Razão social / Nome do cliente</label><input id="company" placeholder="Empresa ou cliente"><label for="cnpj">CNPJ</label><input id="cnpj" placeholder="00.000.000/0000-00"><label for="contact">Contato / Telefone</label><input id="contact" placeholder="Nome e telefone"><label for="notes">Observações</label><textarea id="notes" placeholder="Entrega, endereço, observações…"></textarea><button class="primary" id="whatsapp">Enviar pedido pelo WhatsApp</button><button class="secondary" id="csv">Baixar pedido em CSV</button><button class="secondary" id="print">Imprimir / Salvar PDF</button><button class="secondary" id="clear">Limpar quantidades</button><p class="note">O botão WhatsApp abre uma mensagem pronta para você escolher o destinatário e enviar. O pedido não é enviado automaticamente. Valores sujeitos à confirmação comercial. As fotos podem ser adicionadas no catálogo por meio do botão “Adicionar foto”, e ficam armazenadas neste navegador.</p></aside></div><div class="footer">CURADEN SWISS DO BRASIL · Catálogo de pedidos · Base: Farmácia 2026</div></main><button class="floating" onclick="document.getElementById('cart').scrollIntoView({behavior:'smooth'})">🛒 Ver pedido · <span id="floating-total">R$ 0,00</span></button><script>
+const products=[
+  {
+    "ean": "7612412546002",
+    "dun": "76124125460020",
+    "code": "010001",
+    "description": "CS 5460B Escova dental CURAPROX adulto ULTRA MACIA",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412428964",
+    "dun": "76124124289646",
+    "code": "100168",
+    "description": "CS 12460 VELVET ESCOVA DENTAL CURAPROX ADULTO ULTRA MACIA",
+    "cost": 32.2,
+    "suggested": 54.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412428070",
+    "dun": "76124124280704",
+    "code": "100237",
+    "description": "CS WOOD CURAPROX ADULTO ULTRA MACIA",
+    "cost": 38.5,
+    "suggested": 63.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412422672",
+    "dun": "76124124226726",
+    "code": "100012",
+    "description": "CS 5460 DUO PACK BR CURAPROX",
+    "cost": 47.5,
+    "suggested": 79.9,
+    "page": 1
+  },
+  {
+    "ean": "7640134161586",
+    "dun": "76401341615862",
+    "code": "100261",
+    "description": "CS 5460 DUO PACK SPEZIAL EDITION BR CURAPROX (DUO BRASIL)",
+    "cost": 49.65,
+    "suggested": 83.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412431063",
+    "dun": "76124124310630",
+    "code": "100212",
+    "description": "CS 5460 DUO PACK SPEZIAL EDITION BR CURAPROX",
+    "cost": 49.65,
+    "suggested": 83.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412423877",
+    "dun": "76124124238771",
+    "code": "100050",
+    "description": "DUO SMART Escova Dental CURAPROX Ultra Macia",
+    "cost": 47.5,
+    "suggested": 79.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412431100",
+    "dun": "76124124311002",
+    "code": "100221",
+    "description": "KIDS DUO ESCOVA DENTAL INFANTIL CURAPROX",
+    "cost": 47.5,
+    "suggested": 79.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412425994",
+    "dun": "76124124259946",
+    "code": "100082",
+    "description": "CS 5460 DUO PACK SOS MATA ATLANTICA CURAPROX",
+    "cost": 49.65,
+    "suggested": 83.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412425826",
+    "dun": "76124124258260",
+    "code": "100079",
+    "description": "CS 5460 DUO MAIS SMART TAMAR EDITION BR CURAPROX",
+    "cost": 49.65,
+    "suggested": 79.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412422429",
+    "dun": "76124124224290",
+    "code": "100017",
+    "description": "CS 5460T TRIO Escova dental CURAPROX Special Edition",
+    "cost": 67.2,
+    "suggested": 113.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412700077",
+    "dun": "76124127000771",
+    "code": "010037",
+    "description": "CS ORTHO Escova dental CURAPROX adulto ULTRA MACIA",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412396003",
+    "dun": "76124123960030",
+    "code": "010002",
+    "description": "CS 3960B Escova dental CURAPROX adulto SUPER MACIA",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412156003",
+    "dun": "76124121560030",
+    "code": "010003",
+    "description": "CS 1560B Escova dental CURAPROX adulto MACIA",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412100754",
+    "dun": "76124121007541",
+    "code": "010025",
+    "description": "CS 4060B Escova dental CURAPROX ATA accurate total access",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412426007",
+    "dun": "76124124260072",
+    "code": "010004",
+    "description": "CK 4260B Baby Escova dental infantil CURAPROX",
+    "cost": 24.9,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429268",
+    "dun": "76401341611284",
+    "code": "100178",
+    "description": "KIDS ESCOVA DENTAL INFANTIL CURAPROX",
+    "cost": 24.9,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412423037",
+    "dun": "76124124230372",
+    "code": "100025",
+    "description": "CS SMART Escova dental CURAPROX ULTRA MACIA",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412189506",
+    "dun": "76124121895061",
+    "code": "010006",
+    "description": "CS Surgical Escova dental CURAPROX pos cirurgica",
+    "cost": 30.5,
+    "suggested": 50.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412271300",
+    "dun": "76124121006000",
+    "code": "010007",
+    "description": "CS 1006B Escova Unitufo 6 mm CURAPROX",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412910094",
+    "dun": "76124129100940",
+    "code": "010008",
+    "description": "CS 1009B Escova Unitufo 9 mm CURAPROX",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412422108",
+    "dun": "76124124227641",
+    "code": "100134",
+    "description": "CPS 06B Refil Interdental CURAPROX 0,06 mm",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412422139",
+    "dun": "76124124227711",
+    "code": "100135",
+    "description": "CPS 07B Refil Interdental CURAPROX 0,07 mm",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412422146",
+    "dun": "76124124227881",
+    "code": "100136",
+    "description": "CPS 08B Refil Interdental CURAPROX 0,08 mm",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412422153",
+    "dun": "76124124227951",
+    "code": "100137",
+    "description": "CPS 09B Refil Interdental CURAPROX 0,09 mm",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412422160",
+    "dun": "76124124228011",
+    "code": "100138",
+    "description": "CPS 11B Refil Interdental CURAPROX 0,11 mm",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429800",
+    "dun": "76124124298006",
+    "code": "100189",
+    "description": "CPS 06B 8X REFIL INTERDENTAL CURAPROX 0,06 MM PRIME",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429817",
+    "dun": "76124124298174",
+    "code": "100190",
+    "description": "CPS 07B 8X REFIL INTERDENTAL CURAPROX 0,07 MM PRIME",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429824",
+    "dun": "76124124298242",
+    "code": "100191",
+    "description": "CPS 08B 8X REFIL INTERDENTAL CURAPROX 0,08 MM PRIME",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429831",
+    "dun": "76124124298310",
+    "code": "100192",
+    "description": "CPS 09B 8X REFIL INTERDENTAL CURAPROX 0,09 MM PRIME",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429848",
+    "dun": "76124124298488",
+    "code": "100193",
+    "description": "CPS 11B 8X REFIL INTERDENTAL CURAPROX 0,11 MM PRIME",
+    "cost": 28.8,
+    "suggested": 44.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429855",
+    "dun": "76124124298556",
+    "code": "100026",
+    "description": "CPS PRIME PLUS HAND MIX - REFIL INTERDENTAL MIX PRIME",
+    "cost": 24.9,
+    "suggested": 39.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412424522",
+    "dun": "76124124245226",
+    "code": "100097",
+    "description": "CS 708 IMPLANT ORTHO CURAPROX",
+    "cost": 24.9,
+    "suggested": 42.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412300505",
+    "dun": "76124123005051",
+    "code": "010018",
+    "description": "BDC 152 Escovas de Protese",
+    "cost": 55.0,
+    "suggested": 89.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412424010",
+    "dun": "76124124240101",
+    "code": "100001",
+    "description": "Escova de dente reposição Sensitive CURAPROX HYDROSONIC CHS 200",
+    "cost": 100.5,
+    "suggested": 149.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429039",
+    "dun": "76124124290390",
+    "code": "100140",
+    "description": "TRAVEL SET BRAZIL CURAPROX ESCOVA DE VIAGEM, INTERDENTAL, CREME DENTAL 10ML, CAIXA PARA VIAGEM",
+    "cost": 53.33,
+    "suggested": 53.33,
+    "page": 1
+  },
+  {
+    "ean": "7612412429237",
+    "dun": "76124124292370",
+    "code": "100166",
+    "description": "Refill CS 5460B Escova Dental Curaprox Refill Travel Duo Aduto",
+    "cost": 41.41,
+    "suggested": 69.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412430332",
+    "dun": "76124124303328",
+    "code": "100229",
+    "description": "TRAVEL SET BLACK IS WHITE CURAPROX ESCOVA DE VIAGEM, INTERDENTAL, CREME DENTAL 10ML, CAIXA PARA VIAGEM",
+    "cost": 65.9,
+    "suggested": 65.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412431551",
+    "dun": "76124124315512",
+    "code": "100230",
+    "description": "REFILL BLACK IS WHITE CURAPROX TRAVEL DUO ADULTO ULTRA MACIA",
+    "cost": 41.41,
+    "suggested": 69.9,
+    "page": 1
+  },
+  {
+    "ean": "7612412429350",
+    "dun": "76124124293506",
+    "code": "100163",
+    "description": "PINK EDITION CURAPROX CS 5460 ULTRASOFT EDIÇÃO LIMITADA",
+    "cost": 131.37,
+    "suggested": 215.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412430868",
+    "dun": "76124124308682",
+    "code": "100201",
+    "description": "BLUE EDITION CURAPROX CS 5460 ULTRASOFT EDIÇÃO LIMITADA",
+    "cost": 131.37,
+    "suggested": 215.9,
+    "page": 2
+  },
+  {
+    "ean": "7640134162866",
+    "dun": "76401341628664",
+    "code": "100220",
+    "description": "BLUE PINK EDITION CURAPROX CS 5460 ULTRASOFT EDIÇÃO LIMITADA",
+    "cost": 131.37,
+    "suggested": 215.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412431728",
+    "dun": "76124124317288",
+    "code": "100236",
+    "description": "CURAPROX EDITION CURAPROX CS 5460 ULTRASOFT ED LIMITADA",
+    "cost": 131.37,
+    "suggested": 215.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412901108",
+    "dun": "76124129011081",
+    "code": "10017",
+    "description": "Raspador de lingua CURAPROX",
+    "cost": 28.22,
+    "suggested": 42.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412422436",
+    "dun": "76124124224361",
+    "code": "100039",
+    "description": "Creme Dental Enzycal - 950",
+    "cost": 29.9,
+    "suggested": 49.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412070002",
+    "dun": "76124120700021",
+    "code": "100038",
+    "description": "Creme Dental Enzycal - 1450",
+    "cost": 29.9,
+    "suggested": 49.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412422849",
+    "dun": "76124124228491",
+    "code": "100040",
+    "description": "Creme Dental Enzycal - Zero",
+    "cost": 29.9,
+    "suggested": 49.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412430349",
+    "dun": "76124124303496",
+    "code": "100200",
+    "description": "DENTIFRICIO CURAPROX KIDS 1450 60ML",
+    "cost": 27.44,
+    "suggested": 44.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412429466",
+    "dun": "76124124294664",
+    "code": "100213",
+    "description": "DENTIFRICIO CURAPROX KIDS ZERO FLUOR 60ML",
+    "cost": 27.44,
+    "suggested": 44.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412431353",
+    "dun": "76124124313532",
+    "code": "100240",
+    "description": "ALIGNER FOAM DENTRIFICIO CURAPROX 40ML",
+    "cost": 72.66,
+    "suggested": 119.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412423686",
+    "dun": "76124124236861",
+    "code": "100049",
+    "description": "Creme Dental Black is White com escova",
+    "cost": 107.93,
+    "suggested": 145.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412423822",
+    "dun": "76124124238224",
+    "code": "100051",
+    "description": "Creme Dental Black is White sem escova",
+    "cost": 89.94,
+    "suggested": 121.0,
+    "page": 2
+  },
+  {
+    "ean": "7612412424959",
+    "dun": "76124124249596",
+    "code": "100125",
+    "description": "BE YOU LIGHT PACK COM CS 5460",
+    "cost": 33.9,
+    "suggested": 49.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412424614",
+    "dun": "76124124246144",
+    "code": "100109",
+    "description": "BLACK IS WHITE 8ML LIGHT PACK COM CS 5460",
+    "cost": 33.9,
+    "suggested": 49.9,
+    "page": 2
+  },
+  {
+    "ean": "7640134161609",
+    "dun": "76401341616098",
+    "code": "100262",
+    "description": "KIDS LIGHT PACK",
+    "cost": 33.9,
+    "suggested": 49.9,
+    "page": 2
+  },
+  {
+    "ean": "7640134162965",
+    "dun": "76401341629654",
+    "code": "100228",
+    "description": "KIT BABY DENTIFRICIO KIDS 1450 E ESCOVA DENTAL BABY CURAPROX",
+    "cost": 40.33,
+    "suggested": 79.9,
+    "page": 2
+  },
+  {
+    "ean": "7640134162958",
+    "dun": "76401341629586",
+    "code": "100227",
+    "description": "KIT INFANTIL DENTIFRICIO KIDS 1450 E ESCOVA DENTAL KIDS CURAPROX",
+    "cost": 40.33,
+    "suggested": 79.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412425673",
+    "dun": "76124124256730",
+    "code": "100101",
+    "description": "CURAPROX BE YOU PACOTE COM SEIS UNIDADES",
+    "cost": 74.9,
+    "suggested": 115.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412429510",
+    "dun": "76124124295104",
+    "code": "100184",
+    "description": "BE YOU EXPLORER 60ML VERDE (SEM ESCOVA)",
+    "cost": 45.9,
+    "suggested": 79.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412429534",
+    "dun": "76124124295340",
+    "code": "100183",
+    "description": "BE YOU DAYDREAMER 60ML AZUL (SEM ESCOVA)",
+    "cost": 45.9,
+    "suggested": 79.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412429527",
+    "dun": "76124124295272",
+    "code": "100182",
+    "description": "BE YOU RISING STAR 60ML AMARELO (SEM ESCOVA)",
+    "cost": 45.9,
+    "suggested": 79.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412429541",
+    "dun": "76124124295418",
+    "code": "100181",
+    "description": "BE YOU CHALLENGER 60ML VERMELHO (SEM ESCOVA)",
+    "cost": 45.9,
+    "suggested": 79.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412429497",
+    "dun": "76124124294978",
+    "code": "100180",
+    "description": "BE YOU CANDY LOVER 60ML ROSA (SEM ESCOVA)",
+    "cost": 45.9,
+    "suggested": 79.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412429503",
+    "dun": "76124124295036",
+    "code": "100179",
+    "description": "BE YOU PURE HAPPINESS 60ML LARANJA (SEM ESCOVA)",
+    "cost": 45.9,
+    "suggested": 79.9,
+    "page": 2
+  },
+  {
+    "ean": "7612412425949",
+    "dun": "76124124259496",
+    "code": "100000",
+    "description": "Escova de dente HYDROSONIC PRO CURAPROX CHS 100 - BRANCA",
+    "cost": 850.08,
+    "suggested": 1390.0,
+    "page": 2
+  },
+  {
+    "ean": "7612412426731",
+    "dun": "76124124267316",
+    "code": "100160",
+    "description": "PERIO PLUS FORTE ENXAGUANTE BUCAL 200ML CURAPROX",
+    "cost": 55.0,
+    "suggested": 79.9,
+    "page": 3
+  },
+  {
+    "ean": "7612412426663",
+    "dun": "76124124266630",
+    "code": "100143",
+    "description": "PERIO PLUS REGENERATE ENXAGUANTE BUCAL 200ML CURAPROX",
+    "cost": 55.0,
+    "suggested": 79.9,
+    "page": 3
+  },
+  {
+    "ean": "7612412426762",
+    "dun": "76124124267620",
+    "code": "100144",
+    "description": "PERIO PLUS BALANCE ENXAGUANTE BUCAL 200ML CURAPROX",
+    "cost": 55.0,
+    "suggested": 79.9,
+    "page": 3
+  },
+  {
+    "ean": "7612412426588",
+    "dun": "76124124265886",
+    "code": "100145",
+    "description": "PERIO PLUS PROTECT ENXAGUANTE BUCAL 200ML CURAPROX",
+    "cost": 55.0,
+    "suggested": 79.9,
+    "page": 3
+  },
+  {
+    "ean": "7814915567626",
+    "dun": "78149155676263",
+    "code": "100266",
+    "description": "PERIO PLUS ZERO 200ML CURAPROX",
+    "cost": 55.0,
+    "suggested": 79.9,
+    "page": 3
+  },
+  {
+    "ean": "7612412424638",
+    "dun": "76124124246380",
+    "code": "100132",
+    "description": "ENXAGUANTE BUCAL EM PASTILHAS BLACK IS WHITE",
+    "cost": 16.53,
+    "suggested": 24.9,
+    "page": 3
+  },
+  {
+    "ean": "7612412100013",
+    "dun": "76124121000131",
+    "code": "010019",
+    "description": "Curababy mordedor CURAPROX Rosa",
+    "cost": 88.6,
+    "suggested": 129.9,
+    "page": 3
+  },
+  {
+    "ean": "7612412100006",
+    "dun": "76124121000061",
+    "code": "010020",
+    "description": "Curababy mordedor CURAPROX Azul",
+    "cost": 88.6,
+    "suggested": 129.9,
+    "page": 3
+  },
+  {
+    "ean": "7612412426335",
+    "dun": "76124124263356",
+    "code": "100096",
+    "description": "DF 834 FIO DENTAL CURAPROX",
+    "cost": 27.9,
+    "suggested": 44.9,
+    "page": 3
+  }
+];
+const money=v=>Number(v||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function category(s){s=s.toUpperCase();if(s.includes('TRAVEL')||s.includes('KIT ')||s.includes('LIGHT PACK'))return 'Kits e Travel';if(s.includes('INTERDENTAL')||s.includes('CPS '))return 'Interdentais';if(s.includes('DENTIFRICIO')||s.includes('CREME DENTAL')||s.includes('BE YOU'))return 'Creme dental';if(s.includes('ESCOVA')||s.includes('CS ')||s.includes('KIDS')||s.includes('EDITION'))return 'Escovas';return 'Outros'}
+const qty=JSON.parse(localStorage.getItem('curaprox_qty_v1')||'{}');let images={};try{images=JSON.parse(localStorage.getItem('curaprox_images_v1')||'{}')}catch(e){}
+const $=id=>document.getElementById(id);
+function render(){let q=$('search').value.toLowerCase(),f=$('filter').value;let shown=products.filter(p=>(f==='all'||category(p.description)===f)&&[p.description,p.ean,p.dun,p.code].join(' ').toLowerCase().includes(q));$('count').textContent=`${shown.length} produtos`;$('products').innerHTML=shown.map(p=>{let n=qty[p.ean]||0;let pic=images[p.ean];return `<article class="product"><div class="photo">${pic?`<img src="${pic}" alt="Foto de ${escapeHtml(p.description)}">`:`<div class="placeholder"><strong>+</strong>Foto do produto<br>não adicionada</div>`}<button class="upload" data-photo="${p.ean}">${pic?'Trocar foto':'Adicionar foto'}</button></div><div class="product-body"><div class="category">${category(p.description)}</div><div class="name">${escapeHtml(p.description)}</div><div class="codes">EAN: ${p.ean}<br>DUN: ${escapeHtml(p.dun)}<br>Cód.: ${escapeHtml(p.code)}</div><div class="price">${money(p.cost)}</div><div class="small">Custo unitário · Preço sugerido: ${money(p.suggested)}</div><div class="buy"><input aria-label="Quantidade ${escapeHtml(p.description)}" class="qty" type="number" min="0" step="1" value="${n}" data-qty="${p.ean}"><span class="subtotal" data-sub="${p.ean}">${money(n*p.cost)}</span></div></div></article>`}).join('');updateCart()}
+function updateCart(){let selected=products.filter(p=>(qty[p.ean]||0)>0),total=selected.reduce((a,p)=>a+qty[p.ean]*p.cost,0);$('cart-items').innerHTML=selected.length?selected.map(p=>`<div class="cart-line"><span>${escapeHtml(p.description)}<br><small>${qty[p.ean]} × ${money(p.cost)}</small></span><b>${money(qty[p.ean]*p.cost)}</b></div>`).join(''):'<p class="muted">Nenhum produto selecionado.</p>';$('total').textContent=money(total);$('floating-total').textContent=money(total);$('minimum').textContent=total>0&&total<3000?'Referência comercial: pedido mínimo de R$ 3.000,00. Confirme a condição vigente.':'';return {selected,total}}
+$('products').addEventListener('input',e=>{let id=e.target.dataset.qty;if(!id)return;qty[id]=Math.max(0,Math.floor(Number(e.target.value)||0));localStorage.setItem('curaprox_qty_v1',JSON.stringify(qty));let p=products.find(x=>x.ean===id),sub=document.querySelector(`[data-sub="${id}"]`);if(sub)sub.textContent=money(qty[id]*p.cost);updateCart()});
+$('products').addEventListener('click',e=>{let id=e.target.dataset.photo;if(!id)return;let input=document.createElement('input');input.type='file';input.accept='image/*';input.onchange=()=>{let file=input.files[0];if(!file)return;let reader=new FileReader();reader.onload=()=>{let img=new Image();img.onload=()=>{let canvas=document.createElement('canvas');let scale=Math.min(1,520/Math.max(img.width,img.height));canvas.width=Math.round(img.width*scale);canvas.height=Math.round(img.height*scale);canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height);images[id]=canvas.toDataURL('image/jpeg',.75);try{localStorage.setItem('curaprox_images_v1',JSON.stringify(images))}catch(e){alert('O navegador não conseguiu armazenar todas as fotos. Tente imagens menores.')}render()};img.src=reader.result};reader.readAsDataURL(file)};input.click()});
+$('search').addEventListener('input',render);$('filter').addEventListener('change',render);
+function customer(){return {company:$('company').value.trim(),cnpj:$('cnpj').value.trim(),contact:$('contact').value.trim(),notes:$('notes').value.trim()}}
+function message(){let {selected,total}=updateCart(),c=customer();if(!selected.length){alert('Selecione pelo menos um produto.');return null}return `*PEDIDO CURAPROX - FARMÁCIA 2026*\nCliente: ${c.company||'Não informado'}\nCNPJ: ${c.cnpj||'Não informado'}\nContato: ${c.contact||'Não informado'}\n\n`+selected.map(p=>`${p.description}\nEAN: ${p.ean} | DUN: ${p.dun}\n${qty[p.ean]} un. × ${money(p.cost)} = ${money(qty[p.ean]*p.cost)}`).join('\n\n')+`\n\n*TOTAL: ${money(total)}*\nObservações: ${c.notes||'Nenhuma'}\nValores sujeitos à confirmação comercial.`}
+$('whatsapp').onclick=()=>{let m=message();if(m)window.open('https://wa.me/?text='+encodeURIComponent(m),'_blank','noopener,noreferrer')};
+$('csv').onclick=()=>{let {selected,total}=updateCart();if(!selected.length)return alert('Selecione produtos antes de baixar.');let c=customer(),rows=[['Cliente',c.company],['CNPJ',c.cnpj],['Contato',c.contact],['Observações',c.notes],[],['EAN','DUN','Código','Descrição','Custo unitário (R$)','Quantidade','Total (R$)'],...selected.map(p=>[p.ean,p.dun,p.code,p.description,p.cost.toFixed(2).replace('.',','),qty[p.ean],(qty[p.ean]*p.cost).toFixed(2).replace('.',',')]),[],['','','','','','TOTAL',total.toFixed(2).replace('.',',')]];let csv='\ufeff'+rows.map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(';')).join('\r\n');let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='Pedido_CURAPROX_Farmacia_2026.csv';a.click();URL.revokeObjectURL(a.href)};
+$('print').onclick=()=>{let m=message();if(!m)return;let w=window.open('','_blank');if(!w)return alert('Permita janelas pop-up para imprimir.');w.document.write('<!doctype html><html><head><meta charset="utf-8"><title>Pedido CURAPROX</title><style>body{font:14px Arial;padding:32px;white-space:pre-wrap;line-height:1.5}</style></head><body>'+escapeHtml(m)+'</body></html>');w.document.close();w.focus();w.print()};$('clear').onclick=()=>{if(confirm('Deseja zerar todas as quantidades?')){Object.keys(qty).forEach(k=>delete qty[k]);localStorage.removeItem('curaprox_qty_v1');render()}};
+render();</script></body></html>
